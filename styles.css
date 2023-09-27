@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter&family=Noto+Sans:ital@1&family=Poppins:wght@300;400&family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+
+    /* background-image: url(./assets/Title-Image.png); */
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    /* background-size: 100% 100%; */
+    /* font-family: 'Bebas Neue', sans-serif; */
+}
+
+.Title-Image{
+    width: 100vw;
+    position: static;
+    z-index: 0;
+}
+.netflixlogo {
+    height: 20px;
+    z-index: 1;
+}
+.header {
+    background-image: url(./assets/Title-Image.png);
+    background-repeat: no-repeat;
+    display: flex;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+.leftheader {
+    display: flex;
+    z-index: 3;
+    color: white;
+    padding: 20px 25px 20px 63px;
+    justify-content: space-around;
+    width: 500px;
+    font-weight: bolder;
+    font-size: 15px;
+}
+.rightheader {
+    display: flex;
+    z-index: 1;
+    color: white;
+    height: 15px;
+    padding-left: 900px;
+    padding-top: 20px;
+    justify-content: space-evenly;
+    width: 290px;
+}
+.Netflix_Symbol_RGB{
+    position: absolute;
+    top: 55%;
+    left: 4%;
+    z-index: 3;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    width: 100px;
+    color: white;
+    letter-spacing: 5px;
+    
+}
+.icon {
+    height: 30px;
+}
+.maid {
+    font-size: 100px;
+    z-index: 1;
+    color: white;
+    position: absolute;
+    top: 58%;
+    left: 4%;
+    font-weight: 800;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.buttondiv{
+    position: absolute;
+    top: 80%;
+    left: 4%;
+    font-size: 12px;
+}
+.Play {
+    background-color: white;
+    color: black;
+    text-align: center;
+    border: none;
+    border-radius: 6px;
+    font-size: 12px;
+    justify-content: center;
+    width: 60px;
+    height: 28px;
+}
+.Moreinfo{
+    background-color: lightgray;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    width: 80px;
+    height: 28px;
+}
+.seeagaintxt {
+    position: absolute;
+    background-color: transparent;
+    color: white;
+    top: 87%;
+    left: 4%;
+}
+.blackcolor{
+    background-color: black;
+}
+.flex-container {
+    display: flex;
+    padding: 0px;
+}
+.addimg {
+    position: absolute;
+    top: 95%;
+    color: white;
+    right: 1%;
+}
+.textline{
+    background-color: black;
+    color: white;
+    display: flex;
+    /* position: absolute; */
+    width: 100vw;
+    height: 90px;
+    font-size: 20px;
+    padding-top: 30px;
+}
+.Seconddiv{
+    background-color: black;
+    width: 100vw;
+    height: 550px;
+
+}
+.paddingleft {
+    padding-left: 50px;
+}
+span {
+    font-weight: 700;
+    font-size: larger;
+    padding-left: 5px;
+}
+.ArrowRight {
+    height: 20px;
+}
+.ranks{
+    width: 100vw;
+    height: 400px;
+}
+.ranks > img {
+    display: inline-block;
+    /* width: 50vw; */
+}
+.socialmedia{
+    display: block;
+    background-color: antiquewhite;
+    margin-left: 350px;
+    justify-content: space-evenly;
+    width: 110px;
+    height: 28px;
+}
+footer {
+    background-color: black;
+    color: antiquewhite;
+    font-size: small;   
+    height: 200px;
+}
+.footertext{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-container1,.footer-container2,.footer-container3,.footer-container4{
+    display: inline;
+}
+.footerbtn,.footerpar{
+    margin-left: 350px;
+}
+.footerbtn{
+    background-color: black;
+    color: antiquewhite;
+    padding: 20px;
+    width: 100px;
+    height: 40px;
+    font-size: smaller;
+    border: 1px solid antiquewhite;
+}
+.footerpar{
+    bottom: 1%;
+
+}
